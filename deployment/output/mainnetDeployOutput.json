@@ -1,0 +1,54 @@
+{
+  "sortedTroves": {
+    "address": "0x74ef2B06A1D2035C33244A4a263FF00B84504865",
+    "txHash": "0xdad33d5ce731339375b19ce6bbf20cf918c5c7d7064c99eb83a55df3e6c71ee2"
+  },
+  "troveManager": {
+    "address": "0xF5b81Fe0B6F378f9E6A3fb6A6cD1921FCeA11799",
+    "txHash": "0x9b0578122ab1d2e52d7499a79ba0a1346cb7e538c66e4d0df6405f73c86e8515"
+  },
+  "activePool": {
+    "address": "0x67baFF31318638F497f4c4894Cd73918563942c8",
+    "txHash": "0x7b97828bbbba93517bd62c44915f70fd212d7c818100e52095875d1930696f9c"
+  },
+  "collSurplusPool": {
+    "address": "0x6533158b042775e2FdFeF3cA1a782EFDbB8EB9b1",
+    "txHash": "0xb8775d3c10259adcde24aeedd217283648cba037b334ce1f70a243a7083efd5b"
+  },
+  "borrowerOperations": {
+    "address": "0x73C68f1f41e4890D06Ba3e71b9E9DfA555f1fb46",
+    "txHash": "0x6f548033273d03710b414668eb14a1bd49e978f04867324b4c4f8ac09d1de649"
+  },
+  "hintHelpers": {
+    "address": "0xD2D5e508C82EFc205cAFA4Ad969a4395Babce026",
+    "txHash": "0x2c0523e61251fce2d70d16cf6a17bdf8b100b5d6582d97d0f3a480d006d25b85"
+  },
+  "dfrancParameters": {
+    "address": "0x2b639Cc84e1Ad3aA92D4Ee7d2755A6ABEf300D72",
+    "txHash": "0xc22f4b2f82f1bc0758ceff68ece74d268b823c874267b0a1f34e67dce4275f50"
+  },
+  "priceFeed": {
+    "address": "0xF85895D097B2C25946BB95C4d11E2F3c035F8f0C",
+    "txHash": "0x9c0607a8911fdb98fc011d7b5a96b7972ef809a84fbb003c467b37c971860ef3"
+  },
+  "adminContract": {
+    "address": "0x0b27a79cb9C0B38eE06Ca3d94DAA68e0Ed17F953",
+    "txHash": "0xb94a0a033163fb4806df67745fec77b2716ac7755a99d33ffd31bcd62a4927e1"
+  },
+  "feeContract": {
+    "address": "0x7bdd3b028C4796eF0EAf07d11394d0d9d8c24139",
+    "txHash": "0xd9257b104860548583d01fb09d0c699d5052fcb62e0c98ed031cbbbd795b0e9c"
+  },
+  "gvFrax3CrvOracle": {
+    "address": "0xB468647B04bF657C9ee2de65252037d781eABafD",
+    "txHash": "0xbabdac2c0142f2164a092249d76114295390e6f6020227ef897d440abc5467dc"
+  },
+  "gvLusd3CrvOracle": {
+    "address": "0x47c05BCCA7d57c87083EB4e586007530eE4539e9",
+    "txHash": "0x07839dc33f37b3399586bc1c4cda13bd88ad3e2da1013ad9b61a0f223ec39bd9"
+  },
+  "multiTroveGetter": {
+    "address": "0xA9d0Fb5837f9c42c874e16da96094b14Af0e2784",
+    "txHash": "0xc324458fc22b5531ad0154ccd79935479b9c2447566674e19e76ce8151a63c3b"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "sortedTroves": {
+    "address": "0xA7817E4790da46C5214cD6635133f4e6eEC70bA0",
+    "txHash": "0x1ae62e19b442ff01ccbc06f4e4efe605c4fe7d6f93d21f67de0c8deeedd664b3"
+  },
+  "troveManager": {
+    "address": "0x78c530A2091483d23D5b4CFf1d902Ec8418949e4",
+    "txHash": "0xdab8271fdd53f4eded3de823513f3e0d5ee6aa497168ef1cf66df6be1c662dd8"
+  },
+  "activePool": {
+    "address": "0x60838562657637Cddf2E9BE1769132D26D3cEE32",
+    "txHash": "0xd70c9677fa6843d21a7e0dcf9bf6ad146038eb5f5c8920a2140fbf3d50f91e64"
+  },
+  "collSurplusPool": {
+    "address": "0xa05DCa7c9358B084b4d99F2895e6597515DB1778",
+    "txHash": "0xd6382e99b776a633e01e8c799ca98469540e94e47afa529661392aac764f6ac8"
+  },
+  "borrowerOperations": {
+    "address": "0x4B7AAb4E8aeccF72246c1Df6d26E54bb096BE386",
+    "txHash": "0x3a5281b58ec35ea8c93e3ccb27b39156ae247608bda01155e237a1ef731395c8"
+  },
+  "hintHelpers": {
+    "address": "0x945D4C4F61550d80D8c987FBB68C7929e1d1c533",
+    "txHash": "0xe068ef4160c70393aa425811a15ab4b9fb979d0daa30a635972e6c0ef35567d4"
+  },
+  "dfrancParameters": {
+    "address": "0x22d054b73598ba28A3F158333fb62356f02bFFCC",
+    "txHash": "0x500d04b8c2f90ecd389971d4a887305b67db26d00e2ee984d4ac5ec4c216cc9d"
+  },
+  "priceFeed": {
+    "address": "0xB4a30473052Ae837dA6c8E2920Ac09c517F4882F",
+    "txHash": "0xf798508bebd137ebff9fb0356fb4880c368bc301782839599eac9c7d4962acfa"
+  },
+  "adminContract": {
+    "address": "0xD310fb675D0Cbcfac9cBFE280c46148C3FC5485e",
+    "txHash": "0x5331f303c0972d2d99fa05f750c6842447fd421796efd5cf53fb2041fbab08c3"
+  },
+  "DCHFToken": {
+    "address": "0xB3e7f2e8405c748879b6e4CE674aC4Fa37919Cfb",
+    "txHash": "0xc10d3f678629532ee2d1cc6d70823c4cbf63878697edb9aba63412fdfe90438d"
+  },
+  "multiTroveGetter": {
+    "address": "0x7944Ac7e19C8F05b1ab8c92b37869bBD355B1354",
+    "txHash": "0x5365f0f6196d08d60c772bbaffdf2611266b10979aec6ce3984d35cb8ad90bb6"
+  }
+}
