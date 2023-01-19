@@ -1,18 +1,21 @@
-# DCHF Contracts
+# DCHF Experimental
 
-## General Information
+This repository serves as a playground to experiment with more fundamental changes to the vanilla DCHF protocol. 
 
-This repository improves the current DeFi Franc version deployed on Ethereum Mainnet.
+## Warning
 
-Basically it allows adding more collateral types (interest bearing collateral ERC20 tokens). Therefore, some changes have been made:
+The code in this repository is experimental and not production-ready so please do not deploy any contract contained in this repository to mainnet.
 
--   There is no Stability Pool, liquidations are handled directly and liquidator needs to bring the debt of an uncollateralized position. In order to facilitate liquidations, a FlashMinter of DCHF has been created `contracts/Leverage/FlashMinterDCHF.sol`
--   There is no Recovery Mode. A new variable LIMIT_CR is added in DfrancParameters `contracts/DfrancParameters.sol` If the TCR is below than LIMIT_CR just not new troves under LIMIT_CR can be opened, and also is not allowed debt increases or collateral withdrawals, just debt repayments or collateral top ups.
+## Experiments
+
+The following experiments are made in this repository:
+
+- Remove the Stability Pool. Instead, execute liquidations through external liquidators which need to repay the debt of a risky trove during a liquidation. In order to facilitate liquidations, a FlashMinter of DCHF has been created `contracts/Leverage/FlashMinterDCHF.sol`
+- Remove the Recovery Mode. A new variable LIMIT_CR is added in DfrancParameters `contracts/DfrancParameters.sol` If the TCR is below than LIMIT_CR just not new troves under LIMIT_CR can be opened, and also is not allowed debt increases or collateral withdrawals, just debt repayments or collateral top ups.
 - MCR (Minimum Collateral Ratio) has been replaced by two new variables to increase flexibility. These are LIQ_MCR (Minimum Liquidation CR) and BORROW_MCR (Minimum CR for Borrowing)
--   There is no staking pool. The fees collected go to the Fee Contract `contracts/FeeContract.sol` and this contract processes them by swapping DCHF for MON and burning it via sending them to the Burn Contract `contracts/BurnContract.sol`
+- Remove the staking pool. The fees collected go to the Fee Contract `contracts/FeeContract.sol` and this contract processes them by swapping DCHF for MON and burning it via sending them to the Burn Contract `contracts/BurnContract.sol`
 -   DefaultPool and Gas Compensation have been deleted in this version.
 -   TroveManager and TroveManagerHelpers have been merged in TroveManager `contracts/TroveManager.sol`
-
 
 ## Deployment
 
